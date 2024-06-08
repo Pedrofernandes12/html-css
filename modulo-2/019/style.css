@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right,#7c5b77,#0c6174,#026873,#038C8C,#038C7F);
+}
+#principal{
+    text-align: center;background-color: white;
+}
+h1{
+    color: hotpink;
+}
+h2{
+    color: gold;font-weight: normal;
+}
+.secundario{
+    background-color: black ;
+}

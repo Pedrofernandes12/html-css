@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto invisivel</title>
+    <style> 
+    body{margin: 0; background-color: bisque;}
+        div > .especial {display: none;}
+        div:hover > .especial {display: block;background-color: yellow;color: black;margin:0px; width: auto;}
+        div{text-align: center;background-color: aqua; width: 150px;margin: auto;;}
+        p{text-align: center;}
+        h1{text-align: center;margin: auto;width: 200px;}
+        main{
+            margin: auto;
+        }
+        .blocos{width: 200px;height: 200px;display: inline-block;margin-;margin: 30px;padding: 0;outline: auto;}
+        .blocos:hover{color: aliceblue;}
+        
+        .apareceu{margin: 0; text-align:center;}
+
+        .blocos > .apareceu{display: none;}
+        .blocos:hover >.apareceu{display: block;}
+        .apareceu{
+            font: italic bolder 30px arial
+            
+        }
+        .blocos:hover{text-decoration-line: underline;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Texto Invisivel</h1>
+        <div>
+            passar o mouse aqui
+            <p class="especial">apareceu</p>
+        </div>
+        <p>veja o conteudo oculto</p>
+    </header>
+    <main>
+        <h1>Passe o mouse no bloco</h1>
+        <div class="blocos">bloco 1 <p class="apareceu">apareceu</p></div>
+        <div class="blocos">bloco 2 <p class="apareceu">apareceu</p></div>
+        <div class="blocos">bloco 3 <p class="apareceu">apareceu</p></div>
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: rgb(218, 213, 213);
+    font: normal normal 16px Playfair Display;
+    margin: 0px;
+    width: 980px;
+}
+.cabeçalho{
+    font: normal bolder 20px Seymour One;
+    margin: 0;
+}
+h2, h3{font: normal bolder 20px Seymour One;
+margin: 0; text-align: center;
+}
+header{
+    background-color: rgb(180, 180, 161);
+    margin: 10px;
+    border: solid white;
+    width: 90%;
+}
+.links{
+    text-align: right;
+    font: normal normal 16px Playfair Display;
+}
+.links > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.links > a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.links > a:hover::after{
+    content: '←';
+}
+.links > a:hover::before{
+    content: '→';
+}
+.conteudoprincipal{
+    background-color: rgb(180, 180, 161);
+    margin: 10px;
+    border: solid white;
+    height: 600px;
+    display: inline-flex;
+    width: 90%;
+}
+.secaoum{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(221, 221, 199);
+    margin: 10px;
+}
+.artigoum > h2{
+    text-align: center;
+}
+.artigoum > p{
+    text-align: justify;
+}
+.secaodois{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(221, 221, 199);
+    margin: 10px;
+}
+.artigodois > h2{
+    text-align: center;
+}
+.artigodois > p{
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    color: white;
+    border: solid white;
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+    font: normal bolder 20px Seymour One
+}

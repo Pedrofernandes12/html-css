@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+}
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #5cbe7d;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --cor7: #1a5a37;
+    --cor8: #89cda5;
+    --cor9: #2FA866;
+
+    --font1: arial, verdana, helvetica, sans-serif;
+    --font2: Bebas Neue;
+    --font3: android, cursive;
+
+    --simbolo-link-externo: "\00a0\1F517";
+
+}
+
+strong{
+    color: var(--cor5);
+    text-shadow: 1px 1px 2px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links::after{
+    content: var(--simbolo-link-externo);
+}
+
+.links:hover{
+    background-color: var(--cor5);
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
+
+p{
+    font-family: var(--font1);
+    line-height: 30px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+}
+
+header h1{
+    text-align: center;
+    font-family: var(--font2);
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+
+header > p{
+    text-align: center;
+    font-family: var(--font1);
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: var(--font1);
+    color: white;
+}
+
+nav{
+    background-color: var(--cor5);
+}
+
+article h1{
+    text-align: center;
+    font-family: var(--font3);
+    color: var(--cor7);
+    text-shadow: 1px 1px 5px;
+}
+
+article h2{
+    font-family: var(--font3);
+    color: var(--cor7);
+    background-image:linear-gradient(to right, #89cda5, #00000000);
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px;
+}
+
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+aside h3{
+    background-color: var(--cor9);
+    color: white;
+}
+
+aside{
+    background-color: var(--cor1);
+}
+
+aside ul{
+    columns: 2;
+    padding-left: 50px;
+    list-style-type: '\2714\00a0\00a0';
+}

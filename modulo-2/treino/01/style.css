@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body
+{ background-image: linear-gradient(to right, #0487a5, #A5A692, #BFB78F, #ecb856);}
+
+main
+{background-color: bisque; width: 600px;margin:auto;border-radius: 10px;padding: 10px;border-radius: 10px;box-shadow: 5px 5px 15px blanchedalmond;}
+
+h1
+{text-align:center;width: 200px;box-shadow: 5px 5px 15px red;color: rgb(20, 173, 6);margin: auto;}
+
+h2
+{color: rgb(20, 173, 6); box-shadow: 5px 5px 15px red;width: 170px;text-align: center;}

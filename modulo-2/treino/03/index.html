@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+       
+       body{background-image:linear-gradient(to right, #0D0B0C, #D9BBA0, #D99873, #8C7669, #BF8069);}
+
+        h1{color:aqua;}
+
+        .hum{color:red;background-color:#0D0B0C;width:100px;text-align:center;border:2px solid red;box-shadow: 2px 2px 1px;}
+
+        .hdois{color:red;background-color:#0D0B0C;width:305px;text-align:center;border:2px solid red;box-shadow: 2px 2px 1px;}
+
+        .htres{color:red;background-color:#0D0B0C;width:248px;text-align:center;border:2px solid;box-shadow: 2px 2px 1px;}
+        
+        .blocos{width:200px;height:200px;background-color:lightgrey;border:3px solid green;display:inline-block;text-align:center;}
+        
+        .blocos:hover{background-color:aqua;}
+
+        .hdoispum{text-align:left;color:aquamarine;font: italic normal 20px Holtwood One SC;}
+
+        .hdoispdois:{color: white;width: 180px;}
+        
+        .passarmouse{color: white;background-color: red;width: 110px;height: 20px;}
+        
+        span > p{display: none;}
+
+        span:hover > p{display:block;text-align:left;color:aquamarine;font: italic normal 20px Holtwood One SC;}
+
+        .a:hover{color: aqua;}
+        
+        .links:visited{color: rgb(255, 255, 255);text decoration: none;}
+
+        .links::after{content:' ←';}
+
+        .links::before{content:'→ '}
+
+        ol{margin-inline:50px;display:flex;}
+    </style>
+</head>
+<body>
+   <h1>TESTES</h1>
+   <h2 class="hum">BLOCOS</h2>
+   <div class="blocos">primeiro</div>
+   <div class="blocos">segundo</div>
+   <div class="blocos">terceiro</div>
+   <h2 class="hdois">CARACTERE ESCONDIDO</h2>
+   <p class="hdoispum">passar mouse no texto abaixo</p>
+   <span class="passarmouse">
+    passar o mouse...
+    <p class="hdoispdois">APARECEU</p>
+   </span>
+    <h2 class="htres">LINKS INTERATIVOS</h2>
+    <ol>
+        <div><a target="_blank" href="https://google.com.br">google</a></div>
+        <div><a target="_blank" href="https://instagram.com">instagram</a></div>
+        <div><a target="_blank" href="https://facebook.com">facebook</a></div>
+    </ol>
+
+
+</body>
+</html>
