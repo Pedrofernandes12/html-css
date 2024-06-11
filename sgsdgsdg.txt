@@ -1,0 +1,22 @@
+background-color: ;
+background-image: ;
+background-position: ; (left center,left bottom,right top...)
+background-repeat: ;   (no-repeat,repeat-x,repeat-y)
+background-size: ;     (widfh,height) auto/contain/cover
+background-attachment: ;(fixed,scroll)
+
+background: color > image > position > repeat > size > attachmen
+
+
+
+
+(container)
+position: relative
+
+(conteudo)
+position: absolute
+
+left: ;
+right: ;
+
+transform: ; (translate)

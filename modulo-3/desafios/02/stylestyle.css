@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: lightgray;
+}
+
+header{
+background-color: black;
+color: white;
+text-align: center;
+}
+
+header h1{
+padding-top: 50px;
+}
+
+header p{
+padding-bottom: 50px;
+}
+
+header a{
+color: white;
+text-decoration: none;
+}
+
+header a:hover{
+text-decoration: underline;
+}
+
+.fundo-branco{
+background-color: white;
+height: 100vh;
+}
+
+.fundo-branco p{
+font-size: 2em;
+line-height: 70px;
+padding: 30px;
+}
+
+.fundo-branco .p-maior{
+    height: 150vh;
+}
+
+.fundo-imagem{
+position: relative;
+background-color: rgb(136, 135, 135);
+color: white;
+height: 500px;
+}
+
+.fundo-texto{
+position: absolute;
+background-color: rgba(0, 0, 0, 0.1);
+width: 400px;
+height: 400px;
+left: 25px;
+top: 50px;
+}
+
+.fundo-texto p{
+    font-size: 2em;
+    line-height: 55px;
+    width: 400px;
+    height: 400px;
+}
+
+#imagem-1{
+    background-image: url("imagens/background001.jpg");
+    background-position: center right;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+#imagem-2{
+    background-image: url("imagens/background002.jpg");
+    background-position: center right;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
